@@ -1,7 +1,7 @@
 import re
 
 def main ():
-    book_path = "books/frankenstein.txt"
+    book_path = input("Please enter the path to the book: ")
     text = get_book_text(book_path)
     letter_total = get_letter_total(text)
     new_letters = get_lower_letters(text)
